@@ -14,4 +14,5 @@ module my_ec2{
 
     instance_type = "t2.micro"
     subnet_id = "${module.vpc.subnet_id}"
+    node ="hello"
 }
